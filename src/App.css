@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+.wrapper {
+    padding: 10px 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p, h4 {
+    color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.feedback-stats {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+    background-color: white;
+    padding: 25px 35px;
+    border-radius: 10px;
+    width: fit-content;
+    position: relative;
+    margin: 20px 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.active{
+    background-color: #000;
+    color: red;
+}
+
+.about{
+    letter-spacing: normal;
+}
+
+.card.reverse {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+.btn {
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.btn-primary {
+    background-color: #202142;
+}
+
+.btn-secondary {
+    background-color: #ff6a95;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+    opacity: 0.9;
+}
+
+.btn:disabled{
+    background-color: gray;
+    cursor: wait;
+}
+
+.num-display {
+    background-color: #ff8aa3;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+    left: -10px;
+}
+
+.close {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    padding: 10px 5px;
+    right: 0;
 }
