@@ -1,0 +1,19 @@
+{
+  "feedback": [
+    {
+      "id": 1,
+      "text": "lorem 1",
+      "rating": 3
+    },
+    {
+      "id": 2,
+      "text": "lorem 2",
+      "rating": 5
+    },
+    {
+      "text": "new arrays mup2",
+      "rating": 1,
+      "id": 3
+    }
+  ]
+}
